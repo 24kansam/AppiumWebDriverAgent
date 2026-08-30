@@ -16,6 +16,7 @@ jobs:
             -scheme WebDriverAgentRunner \
             -destination "generic/platform=iOS" \
             -derivedDataPath build \
+            PRODUCT_BUNDLE_IDENTIFIER="com.skane.wda.runner" \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
